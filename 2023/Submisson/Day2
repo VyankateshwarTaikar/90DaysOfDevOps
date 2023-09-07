@@ -15,9 +15,7 @@ Navigate to the Right Directory 📂
 Before running a command, make sure you're in the correct directory (folder) where you want to execute it. Use the cd command followed by the directory path to navigate around. For instance, to go to your home directory, type:
 
 
-COPY
 
-COPY
 cd ~
 ~: represents your home directory.
 
@@ -26,9 +24,7 @@ Run a Simple Command 🏃‍♂️
 Type the following command in the terminal
 
 
-COPY
 
-COPY
 pwd
 This command stands for "Print Working Directory," and it will display the full path to your current location in the file system.
 
@@ -48,9 +44,7 @@ Let's dive into the methods to unveil these hidden treasures!
 Type the following command in the terminal
 
 
-COPY
 
-COPY
 ls -a
 The "ls" command is a powerful tool for listing files and directories in Unix-based systems. To list hidden files along with visible ones. -a: All the files. This command will display all files and directories, including hidden ones, in the current directory.
 
@@ -72,9 +66,7 @@ Using mkdir In Linux, the " mkdir " command ("make directory") is used to create
 Type the following command in the terminal
 
 
-COPY
 
-COPY
 mkdir -p A/B/C/D/E
 -p: which tells mkdir to create parent directories if they don't exist.
 
