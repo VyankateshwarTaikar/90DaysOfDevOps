@@ -1,0 +1,91 @@
+A Beginner's Guide Part 1
+In recent years, the use of Linux has been skyrocketing! 📈 Its stability, security, and versatility have made it the go-to choice for tech enthusiasts and businesses alike. 💼 From servers to smartphones, Linux is everywhere! 💻📱
+
+Whether you're a Developer, a Sysadmin, or just an everyday user, Linux has something to offer. With its increasing popularity, it's clear that the penguin 🐧 is here to stay!
+
+Linux, with its powerful command-line interface (CLI), offers a world of possibilities for users and system administrators. While it may seem daunting at first, learning how to run commands in the Linux terminal can empower you to take control of your system and perform tasks efficiently. In this guide, we will go through the basics of Linux.
+
+Step-by-Step Guide Here 🐧
+Open the Terminal 🏁
+
+To begin your journey into the Linux command-line world, you need to open the terminal. You can typically find it in your applications menu or connect through SSH by creating a virtual machine in any cloud platform
+
+Navigate to the Right Directory 📂
+
+Before running a command, make sure you're in the correct directory (folder) where you want to execute it. Use the cd command followed by the directory path to navigate around. For instance, to go to your home directory, type:
+
+
+COPY
+
+COPY
+cd ~
+~: represents your home directory.
+
+Run a Simple Command 🏃‍♂️
+🧭 Check Your Present Working Directory 📂
+Type the following command in the terminal
+
+
+COPY
+
+COPY
+pwd
+This command stands for "Print Working Directory," and it will display the full path to your current location in the file system.
+
+
+
+Voilà! The command-line interface will return the path to your PWD.
+
+📂 How to List All Files and Directories, Including Hidden Ones🕵️
+Why Hidden Files and Directories?
+
+Hidden files and directories are often used by system processes and applications to store configuration settings and data that you don't need to interact with directly. They're typically named with a dot (.) at the beginning of the filename, making them easy to identify.
+
+However, sometimes you might need to access these hidden files for various reasons. Maybe you want to change a configuration setting, find a lost document, or investigate a potential issue.
+
+Let's dive into the methods to unveil these hidden treasures!
+
+Type the following command in the terminal
+
+
+COPY
+
+COPY
+ls -a
+The "ls" command is a powerful tool for listing files and directories in Unix-based systems. To list hidden files along with visible ones. -a: All the files. This command will display all files and directories, including hidden ones, in the current directory.
+
+
+
+Easy, right? 👍
+
+📁 How to Create Nested Directories 🧙‍♂️
+Let's clarify what nested directories are.
+
+A nested directory, also known as a subdirectory or subfolder, is a directory that is contained within another directory. It's like having folders within folders, creating a hierarchy to organize your files effectively.
+
+📁➡️📁➡️📁➡️📁➡️📁
+
+This can be incredibly useful for managing your data, especially when working on complex projects.
+
+Using mkdir In Linux, the " mkdir " command ("make directory") is used to create directories. To create a nested directory structure, you'll use this command along with the -p option.
+
+Type the following command in the terminal
+
+
+COPY
+
+COPY
+mkdir -p A/B/C/D/E
+-p: which tells mkdir to create parent directories if they don't exist.
+
+
+
+🎉 Congratulations! You've just created a nested directory structure in Linux.
+
+You will see the B directory listed inside it, and so on until you reach the E directory. 📂📂📂📂📂
+
+Overall, we performed a series of file system operations, including navigation, listing Files and directories and creating a nested directory structure to manage your files and directories effectively.
+
+I hope you enjoy the blog post!
+
+If you do, please show your support by giving it a like ❤, leaving a comment 💬, and spreading the word 📢 to your friends and colleagues 😊
